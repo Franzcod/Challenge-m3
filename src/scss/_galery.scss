@@ -1,0 +1,94 @@
+
+$font: 'Arial', sans-serif;
+
+
+.galery{
+    // background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .galery{
+        max-width: 100%;
+    }
+}
+
+.grid-cards{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+    flex-wrap: wrap;
+    // background-color: red;
+    margin: 10px ;
+
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        // border-radius: 10px;
+        // margin: 10px;
+    }
+}
+
+
+
+.name{
+    font-size: 14px;
+    // font-weight: bold;
+    font-family: $font;
+    // color: #fff;
+    text-align: center;
+    // background-color: #000;
+    // padding: 10px;
+    margin: 15px 0;
+    letter-spacing: 2px;
+}
+
+.price{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: $font;
+    // color: #fff;
+    text-align: center;
+    // background-color: #000;
+    // padding: 10px;
+    margin: 0  0 5px 0;
+    // letter-spacing: 2px;
+}
+
+.cuotas{
+    font-size: 14px;
+    // font-weight: bold;
+    font-family: $font;
+    // color: #fff;
+    text-align: center;
+    // background-color: #000;
+    // padding: 10px;
+    margin: 3px 0;
+    // letter-spacing: 2px;
+}
+
+.btn-buy{
+    width: 90%;
+    height: fit-content;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: $font;
+    padding: 10px;
+    border: none;
+    // border-radius: 10px;
+    margin: 10px auto;
+    letter-spacing: 2px;
+    p{
+        text-align: center;
+        margin: auto;
+    }
+}

@@ -1,1 +1,30 @@
 @import "reset";
+@import "nav";
+@import "header";
+@import "galery";
+
+html, body {
+    width: 100%;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+    // background-color: aqua;
+    
+    .menu{
+        width: 250px;
+        background-color:rgba(137, 43, 226, 0.116);
+    }
+}
+
+@media (max-width: 768px) {
+    .main{
+        margin: 20px auto
+    }
+    .menu{
+        display: none;
+    }
+}
+
