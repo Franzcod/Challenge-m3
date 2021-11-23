@@ -55,5 +55,30 @@ function selectFilter(option) {
     }, 500)
 }
 
+// Logica de menu
 
+let btnFiltro = document.getElementById("btnFiltro");
+let menu = document.querySelector(".menu");
+
+
+btnFiltro.addEventListener("click", function(e) {
+    menu.classList.toggle("menu")
+    menu.classList.toggle("mobile-menu")
+})
+
+
+window.addEventListener("resize", function(){
+    if (window.innerWidth > 768) {
+        menu.classList.remove("mobile-menu")
+        menu.classList.add("menu")
+        
+    }
+})
+
+
+let btnCloseMenu = document.querySelector(".cross");
+btnCloseMenu.addEventListener("click", function(e) {
+    menu.classList.toggle("menu")
+    menu.classList.toggle("mobile-menu")
+})
 
