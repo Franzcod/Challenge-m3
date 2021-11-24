@@ -3,7 +3,7 @@
 module.exports= {
     chargeData: function(){
         console.log("Ejecutando Services");
-        fetch('http://localhost:5000/products')
+        fetch('http://localhost:5000/products?_page=1&_limit=9')
         .then(response => response.json())
         .then(data => {
             console.log(data)

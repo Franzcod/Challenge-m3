@@ -8,7 +8,7 @@
     
     .menu{
         width: 250px;
-        margin-left: 35px;
+        margin-left: 15px;
         // background-color:rgba(137, 43, 226, 0.116);
     }
 }
@@ -41,7 +41,7 @@
     .header-menu{
         display: flex;
         justify-content: space-between;
-        padding: 20px 15px ;
+        // padding: 20px 15px ;
         height: fit-content;
         border-bottom: 1px solid rgb(211, 208, 208);
 
@@ -63,17 +63,17 @@
     }
 
     .body-filters{
-        margin-top: 20px;
+        // margin-top: 20px;
         display: flex;
         justify-content: space-between;
-        padding: 20px 15px 5px 15px;
+        padding: 0px 15px 5px 15px;
         height: fit-content;
         // border-bottom: 1px solid rgb(211, 208, 208);
 
         h2{
             
             font-size: 20px;
-            font-weight: bold;
+            // font-weight: bold;
             color: rgb(53, 52, 52);
             font-family: 'Open Sans', sans-serif;
             letter-spacing: 2px;
@@ -118,7 +118,7 @@
 // desktop
 
 .body-filters{
-    margin: 20px 0px 0px 0px; 
+    // margin: 20px 0px 0px 0px; 
     display: flex;
     justify-content: space-between;
     padding: 20px 5px 5px 5px ;
@@ -158,7 +158,7 @@
                 background-color: rgb(57, 185, 245);
                 width: 10px;
                 height: 10px;
-                margin: 3px;
+                margin: 2px;
             }
         }
         .name{

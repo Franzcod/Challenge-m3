@@ -2,12 +2,14 @@
 @import "nav";
 @import "header";
 @import "galery";
-// @import "footer";
 @import "principal-cont";
 
 html, body {
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
+
 
 
 .footer{
