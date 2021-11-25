@@ -42,6 +42,7 @@
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: fit-content;
+    border-bottom: 1px solid rgb(211, 208, 208);
 
 
     .header-menu{
@@ -271,8 +272,8 @@
 
 
     .precios{
-        margin-left: 5px;
-        // margin-top: 5px;
+        margin-left: 40px;
+        margin-top: 15px;
         display: flex;
         padding: 0;
         height: 25px;
@@ -317,6 +318,52 @@
     }
 
 
+    .cont-btns{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin:  30px auto 50px;
+        
+        // background-color: lightcoral;
+
+        .btn-aplicar{
+            font-size: 20px;
+            background-color: rgb(57, 185, 245);
+            color: rgba(255, 255, 255, 0.63);
+            border: none;
+            // border-radius: 5px;
+            padding: 15px 40px;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+            cursor: pointer;
+            // margin-top: 10px;
+            // margin-left: 10px;
+            // margin-right: 10px;
+        }
+
+        .btn-limpiar{
+            font-size: 20px;
+            background-color: transparent;
+            border: 1px solid grey;
+            color: grey;
+            // border: none;
+            // border-radius: 5px;
+            padding: 15px 40px;
+            font-size: 15px;
+            // font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+            cursor: pointer;
+            // margin-top: 10px;
+            // margin-left: 10px;
+            // margin-right: 10px;
+        }
+    }
+
+
+
 
 
 @media (min-width: 768px) {
@@ -330,6 +377,10 @@
     }
 
     .cross{
+        display: none;
+    }
+
+    .cont-btns{
         display: none;
     }
 }
