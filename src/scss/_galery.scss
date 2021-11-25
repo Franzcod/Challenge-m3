@@ -12,7 +12,8 @@ $font: 'Arial', sans-serif;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    width: fit-content;
+    width: 100%;
+    
     // max-width: 80%;
     align-items: center;
     flex-wrap: wrap;
@@ -20,6 +21,7 @@ $font: 'Arial', sans-serif;
 @media (max-width: 768px) {
     .galery{
         max-width: 100%;
+        min-width: 80%;
     }
 }
 
@@ -111,4 +113,8 @@ $font: 'Arial', sans-serif;
     background-color: rgb(79, 187, 236);
     color: white;
     font-weight: bold;
+}
+
+.ocult{
+    display: none;
 }

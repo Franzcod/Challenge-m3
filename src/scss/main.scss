@@ -8,6 +8,7 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    min-height: 100vh;
 }
 
 
@@ -17,6 +18,8 @@ html, body {
     height: fit-content;
     background-color: black;
     display: flex;
+    // position: absolute;
+    bottom: 0;
     justify-content: center;
     color: white;
     padding: 10px 0;

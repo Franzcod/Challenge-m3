@@ -1,9 +1,10 @@
 
 
 module.exports= {
-    chargeData: function(){
+    chargeData: function(endpoint){
         console.log("Ejecutando Services");
-        fetch('http://localhost:5000/products?_page=1&_limit=9')
+
+        fetch(endpoint)
         .then(response => response.json())
         .then(data => {
             console.log(data)
